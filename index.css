@@ -1,0 +1,49 @@
+.header {
+    overflow: hidden;
+    background-color:rgb(194, 194, 194);
+    padding: 20px 10px;
+  }
+  
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  
+  .header a.active {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+  
+  .header-right {
+      color: rgb(194, 194, 194);
+    float: right;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+  
