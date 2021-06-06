@@ -280,9 +280,9 @@ img {
 }
 
 .js {width: 85%; background-color: rgb(38, 38, 54);}
-.react {width: 80%; background-color:rgb(38, 38, 54);}
-.html {width: 70%; background-color: rgb(38, 38, 54);}
-.css {width: 75%; background-color: rgb(38, 38, 54);
+.express {width: 80%; background-color:rgb(38, 38, 54);}
+.database {width: 70%; background-color: rgb(38, 38, 54);}
+.node {width: 75%; background-color: rgb(38, 38, 54);
 }
 
 /* Contact */
@@ -326,7 +326,6 @@ img {
   .project-img {
     width: 20rem;
   }
-}
 
 @media (max-width: 665px) {
   .main-message {
